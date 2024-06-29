@@ -10,11 +10,11 @@ if (fs.existsSync('config.env')) {
 const API = "https://api-aswin-sparky.koyeb.app";
 const ALIVE = process.env.ALIVE || "*STATUS_KING_DINUWA_🥵*";
 const HANDLERS = process.env.HANDLER || "^";
-const SESSION_ID = process.env.SESSION_ID || "A-S-W-I-N-S-P-A-R-K-Y:c319d1fe15052e1a5ad5c0f255a65f22";
+const SESSION_ID = process.env.SESSION_ID || "A-S-W-I-N-S-P-A-R-K-Y:34b77f41f49bfa9d51dd6cf8e0e34998";
 const SUDO = process.env.SUDO || '94719845166';
 const AUTO_STATUS_VIEW = process.env.AUTO_STATUS_VIEW || "true";
 const ALWAYS_ONLINE = process.env.ALWAYS_ONLINE || "true";
-const DISABLE_PM = process.env.DISABLE_PM  || "false";
+const DISABLE_PM = process.env.DISABLE_PM  || "true";
 const PM_BLOCK = process.env.PM_BLOCK || "false";
 const PMB = process.env.PMB || "Sorry, I can't help you in private chat.";
 const READ_MESSAGES = process.env.READ_MESSAGES || "true";
